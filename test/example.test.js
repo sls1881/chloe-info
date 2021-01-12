@@ -15,7 +15,7 @@ test('It should increment by one when a word that starts with a Y is provided', 
     expect.equal(actual, expected);
 });
 
-test('It should increment by one when a word that does not start with Y is provided', (expect) => {
+test('It should not increment by one when a word that does not start with Y is provided', (expect) => {
 
     const expected = false;
 
