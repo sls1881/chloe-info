@@ -39,7 +39,7 @@ quizButton.addEventListener('click', () => {
     if (yesAnswer(dogFiveAnswer)) correctAnswerCount++;
 
     //Results
-    const resultString = `Hello ${firstName} ${lastName}! You got ${Math.round(correctAnswerCount / 3 * 100)}% questions right.`;
+    const resultString = `Hello ${firstName} ${lastName}! You got ${Math.round(correctAnswerCount / 3 * 100)}% of the questions right.`;
 
     quizResult.textContent = resultString;
 
