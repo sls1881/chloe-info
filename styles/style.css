@@ -57,8 +57,6 @@ header {
     box-shadow: var(--shadow);
 }
 
-
-
 ul {
     list-style: square;
 }
@@ -74,6 +72,7 @@ footer {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    padding: 20px;
 }
 
 .gutter-right {
@@ -114,6 +113,11 @@ a {
 
 .chloe {
     max-width: 300px;
+}
+
+.image2 {
+
+    justify-content: flex-end;
 }
   
   @keyframes pulse {
