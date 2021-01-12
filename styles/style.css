@@ -17,9 +17,13 @@ body {
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
-    
-    font-family: 'Titillium Web', sans-serif;
+   
     background-color: var(--color2);
+}
+
+body, button {
+
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 main {
@@ -53,6 +57,12 @@ header {
     box-shadow: var(--shadow);
 }
 
+
+
+ul {
+    list-style: square;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
@@ -79,7 +89,6 @@ header img {
 }
 
 
-
 content {
     width: 80%;
 }
@@ -97,6 +106,14 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+a {
+    color: teal;
+}
+
+.chloe {
+    max-width: 300px;
 }
   
   @keyframes pulse {
