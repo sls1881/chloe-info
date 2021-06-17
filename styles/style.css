@@ -122,6 +122,10 @@ button {
   width: 25%;
 }
 
+.main-section {
+  padding-bottom: 50px;
+}
+
 .chloe {
   max-width: 300px;
 }
@@ -135,7 +139,6 @@ button {
 .address-border {
   border: dotted 1px var(--color5);
   padding: 20px;
-  padding-bottom: 50px;
 }
 
 @keyframes pulse {
